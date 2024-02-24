@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="img-div">
+        <img src="./aset/img/modern-blue-sports-shoe-design-close-up-fashionable-generated-by-ai.jpg" alt="" />
+        <div class="info">
+          <p>North Star FLORA Pink Sneaker For Women</p>
+          <p>Brand: North Star</p>
+          <p>Availability: In stock</p>
+          <div class="extra">
+            <p>Price:<span class="price"> 1000</span></p>
+            <p class="offer">30% off</p>
+          </div>
+        </div>
+      </div>
+      <button onclick="Togglepopup()" class="btn">BUY NOW</button>
+    </div>
+    <div class="popup container">
+      <div class="overlay">
+        <span class="sp" onclick="Togglepopup()"></span>
+        <div class="content">
+          <div class="close-btn"><img onclick="Togglepopup()" src="/aset/img/cross-icon.svg" alt="" /></div>
+
+          <div>
+            <h2>after a 30% discount, you will pay <span class="discount-amount"></span> tk</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="/utilities.js"></script>
+    <script src="/index.js"></script>
+  </body>
+</html>
